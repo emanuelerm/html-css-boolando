@@ -33,7 +33,7 @@ nav {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    
+
 }
 
 #logo img {
@@ -116,6 +116,12 @@ h3 {
     font-size: 1.6rem;
 }
 
+.discounts,
+.ecological,
+.favorite {
+    z-index: 2;
+}
+
 .discounts {
     text-align: center;
     background-color: var(--banner-price-bg);
@@ -134,7 +140,8 @@ h3 {
     bottom: 6rem;
 }
 
-.discounts, .ecological {
+.discounts,
+.ecological {
     color: var(--banner-price-color);
     font-weight: 700;
     padding: 0.2rem 0.4rem;
@@ -155,7 +162,8 @@ footer {
     padding: 2rem 0;
 }
 
-#legal, #social {
+#legal,
+#social {
     color: var(--footer-color);
     padding: 0 1rem;
 }
@@ -179,4 +187,36 @@ h2 {
 #legal a {
     font-size: 0.8rem;
     font-weight: 300;
+}
+
+/* fine footer */
+
+/* hover */
+
+#shirt1,
+#skirt1,
+#pants1,
+#tee1,
+#dress1,
+#dark-tee1 {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    width: 368px;
+    height: 531.297px;
+    display: none;
+}
+
+#shirt:hover #shirt1,
+#skirt:hover #skirt1,
+#pants:hover #pants1,
+#tee:hover #tee1,
+#dress:hover #dress1,
+#dark-tee:hover #dark-tee1 {
+    display: block;
+    z-index: 1;
+}
+
+.favorite:hover {
+    color: var(--price-cards-color);
 }
