@@ -216,8 +216,10 @@ h2 {
 #dark-tee:hover #dark-tee1 {
     display: block;
     z-index: 1;
+    cursor: pointer;
 }
 
 .favorite:hover {
     color: var(--price-cards-color);
+    cursor: pointer;
 }
