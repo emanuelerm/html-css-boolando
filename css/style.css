@@ -24,6 +24,7 @@
 
 header {
     background-color: var(--nav-bg);
+    box-shadow: 0 0 8px #888888;
 }
 
 nav {
