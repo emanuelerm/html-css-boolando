@@ -144,3 +144,39 @@ h3 {
 .clothes:last-child .ecological {
     left: 1rem;
 }
+
+/* fine main */
+
+/* inizio footer */
+
+footer {
+    background-color: var(--footer-bg);
+    margin-top: 3rem;
+    padding: 2rem 0;
+}
+
+#legal, #social {
+    color: var(--footer-color);
+    padding: 0 1rem;
+}
+
+footer a {
+    color: var(--nav-color);
+}
+
+#legal h2 {
+    font-size: 1rem;
+}
+
+#social h2 {
+    font-size: 0.8rem;
+}
+
+h2 {
+    padding-bottom: 0.3rem;
+}
+
+#legal a {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
