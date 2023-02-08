@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
 }
 
 :root {
@@ -16,4 +18,41 @@
     --text-cards-color: #000000;
     --price-cards-color: #FF0000;
     --footer-color: #FFFFFF;
+}
+
+header {
+    background-color: var(--nav-bg);
+}
+
+nav {
+    padding: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+img {
+    max-width: 100%;
+    height: 2rem;
+}
+
+.dFlex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#gender a {
+    padding-right: 0.4rem;
+    font-weight: 700;
+    color: var(--nav-color);
+}
+
+#shop a {
+    padding-left: 0.4rem;
+    color: var(--nav-color);
 }
