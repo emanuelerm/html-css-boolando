@@ -202,10 +202,11 @@ h2 {
 #dark-tee1 {
     position: absolute;
     top: 0;
-    left: 1rem;
-    width: 368px;
-    height: 531.297px;
+    left: 0;
+    /* width: 368px;
+    height: 531.297px; */
     display: none;
+    width: 100%;
 }
 
 #shirt:hover #shirt1,
@@ -222,4 +223,8 @@ h2 {
 .favorite:hover {
     color: var(--price-cards-color);
     cursor: pointer;
+}
+
+.product {
+    position: relative;
 }
